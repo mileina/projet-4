@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+input[type="password"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#password-strength {
+  padding: 20px 0;
+}
+
+.dangereux {
+  color: red;
+}
+
+.medium {
+  color: orange;
+}
+
+.safe {
+  color: green;
+}

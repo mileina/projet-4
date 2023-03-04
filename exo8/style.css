@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+p{
+    font-style: italic;
+    font-size: 15px;
+}
+
+h1#object-name{
+    background-color: blueviolet;
+    height: 50px;
+}
+
+label{
+    font-style: bold;
+    font-size: 30px;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border-color: brown;
+    height: 20px;
+}
+
+form {
+    margin-top: 30px;
+    text-align: left;
+    display: inline-block;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+}
+
+#guess-input {
+    width: 50px;
+    margin-right: 10px;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.failure {
+    color: red;
+}

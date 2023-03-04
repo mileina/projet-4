@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+  }
+  
+  p{
+  font-style: italic;
+  }
+
+  h1 {
+    color: #000080;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  #result {
+    color: green;
+    font-size: larger;
+  }
+
+  button{
+    border-radius: 10%;
+    height: 20px;
+  }

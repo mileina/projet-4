@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type=number] {
+    width: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+p#result {
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calcul de prime d'assurance</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="permisDepuis">Nombre d'année possédant le permis:</label>
+        <input type="number" id="permisDepuis" name="permisDepuis" required>
+
+        <label for="nbAccidents">Nombre d'accidents:</label>
+        <input type="number" id="nbAccidents" name="nbAccidents" required>
+        
+        <label for="anciennete">Ancienneté dans la compagnie:</label>
+        <input type="number" id="anciennete" name="anciennete" required>
+        <button type="button" onclick="calculerPrime()">Calculer la prime</button>
+        <p id="result"></p>
+    </form>
+    
+</body>
+</html>

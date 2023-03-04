@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Facture</h1>
+    <form>
+      <label for="copies">Nombre de photocopies :</label>
+      <input type="number" id="copies" min="1">
+      <p>Rappel de nos tarifs : 10 centimes les 10 premieres, 9 centimes les 20 suivantes et 8 centimes au dela ! </p>
+      <p>Rappel de nos tarifs : 10 centimes les 10 premieres, 9 centimes les 20 suivantes et 8 centimes au dela ! </p>
+      <br>
+      <button type="button" onclick="calculateBill()">Calculer</button>
+    </form>
+    <p id="result"></p>
+  </body>
+</html>

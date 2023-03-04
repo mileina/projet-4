@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calcul de l'heure suivante</title>
+  </head>
+  <body>
+    <form>
+      <label for="heure">Heure:</label>
+      <input type="number" id="heure" name="heure" min="0" max="23" />
+
+      <label for="minutes">Minutes:</label>
+      <input type="number" id="minutes" name="minutes" min="0" max="59" />
+
+      <label for="secondes">Secondes:</label>
+      <input type="number" id="secondes" name="secondes" min="0" max="59" />
+
+      <button type="button" onclick="calculerHeureSuivante()">
+        Calculer l'heure suivante
+      </button>
+    </form>
+    <p id="result"></p>
+    <script>
+      function calculerHeureSuivante() {
+        // Lire les valeurs des champs de formulaire
+        let heure = document.getElementById("heure").value;
+        let minutes = document.getElementById("minutes").value;
+        let secondes = document.getElementById("secondes").value;
+
+        // Incrémenterles secondes de 1
+        secondes = parseInt(secondes) + 1;
+        // Si les secondes dépassent 59, incrémenter les minutes de 1 et réinitialiser les secondes à 0
+        if (secondes > 59) {
+          minutes = parseInt(minutes) + 1;
+          secondes = 0;
+        }
+
+        // Si les minutes dépassent 59, incrémenter les heures de 1 et réinitialiser les minutes à 0
+        if (minutes > 59) {
+          heure = parseInt(heure) + 1;
+          minutes = 0;
+        }
+
+        // Si l'heure dépasse 23, la réinitialiser à 0
+        if (heure > 23) {
+          heure = 0;
+        }
+
+        // Afficher le résultat dans la page
+        document.getElementById(
+          "result"
+        ).innerHTML = `L'heure suivante sera ${heure}h${minutes}min${secondes}sec`;
+      }
+    </script>
+  </body>
+</html>

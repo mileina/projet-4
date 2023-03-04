@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+.valid {
+    color: green;
+}
+.invalid {
+    color: red;
+}
+p#result{
+    text-align: center;
+}

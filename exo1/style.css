@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+#result-container {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+button#submit-button{
+  background-color: #87CEEB;
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+  }
+
+  section#result-container{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 500px;
+    padding: 20px;
+  }

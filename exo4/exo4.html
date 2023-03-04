@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calcul de la monnaie à rendre</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form>
+        <label for="montant">Montant à payer (en €) :</label>
+        <input type="number" id="montant" name="montant">
+        
+        <label for="donne">Somme donnée (en €) :</label>
+        <input type="number" id="donne" name="donne">
+
+        <button type="button" onclick="calculerMonnaieRendue()">Calculer la monnaie à rendre</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
